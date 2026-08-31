@@ -57,7 +57,7 @@ pip install pandas numpy scikit-learn lightgbm xgboost catboost matplotlib seabo
 
 Due to file size constraints on GitHub, download the preprocessed `data/` folder from Google Drive:
 
-📥 **[Download GTIS Data Folder (Google Drive)]((https://drive.google.com/drive/folders/1NGp33mCRjEL5wpEgxH63ZnWZnlDP3f1m?usp=sharing))**
+📥 **[Download GTIS Data Folder (Google Drive)] - https://drive.google.com/drive/folders/1NGp33mCRjEL5wpEgxH63ZnWZnlDP3f1m?usp=sharing **
 
 After downloading, place the extracted `data/` folder directly inside the project root directory.
 
