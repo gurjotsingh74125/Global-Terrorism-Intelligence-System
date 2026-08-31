@@ -9,18 +9,18 @@ The **Global Terrorism Intelligence System (GTIS)** is an end-to-end predictive 
 
 ---
 
-## 🌟 Key Features & Machine Learning Suite
+## Key Features & Machine Learning Suite
 
-* **🔍 Perpetrator Group Attribution**: Multi-class LightGBM classifier that solves unclaimed terror attacks with **92.71% overall accuracy** and **99.96% Top-3 accuracy**.
-* **🎯 Attack Success Predictor**: Cost-sensitive LightGBM classifier evaluating protective factors and attack vector success (**0.9059 ROC-AUC**).
-* **⚠️ Casualty Severity & Lethality Risk**: Dual ordinal classifier and quantile regressors ($q=0.50$ median casualties, $q=0.90$ high-risk upper bound) to bound extreme mass casualty outcomes.
-* **🗺️ 3D Geospatial Threat Hotspots**: Unsupervised DBSCAN density clustering identifying **118 global threat hotspots**.
-* **📈 Regional Volume Forecasting**: Regional monthly time-series lag regressor (**$R^2 = 0.7891$**).
-* **🖥️ Interactive Web Dashboard**: Built with Streamlit, Plotly, and Pydeck for real-time scenario simulation, 3D threat mapping, and diagnostic analytics.
+* **1. Perpetrator Group Attribution**: Multi-class LightGBM classifier that solves unclaimed terror attacks with **92.71% overall accuracy** and **99.96% Top-3 accuracy**.
+* **2. Attack Success Predictor**: Cost-sensitive LightGBM classifier evaluating protective factors and attack vector success (**0.9059 ROC-AUC**).
+* **3. Casualty Severity & Lethality Risk**: Dual ordinal classifier and quantile regressors ($q=0.50$ median casualties, $q=0.90$ high-risk upper bound) to bound extreme mass casualty outcomes.
+* **4. 3D Geospatial Threat Hotspots**: Unsupervised DBSCAN density clustering identifying **118 global threat hotspots**.
+* **5. Regional Volume Forecasting**: Regional monthly time-series lag regressor (**$R^2 = 0.7891$**).
+* **6. Interactive Web Dashboard**: Built with Streamlit, Plotly, and Pydeck for real-time scenario simulation, 3D threat mapping, and diagnostic analytics.
 
 ---
 
-## 📁 Project Directory Structure
+## Project Directory Structure
 
 ```text
 PROJECT_1/
@@ -42,7 +42,7 @@ PROJECT_1/
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### 1. Prerequisites & Installation
 
@@ -76,16 +76,16 @@ Once launched, open your web browser at **`http://localhost:8501`**.
 
 ---
 
-## 📊 Dashboard Views
+## Dashboard Views
 
-1. **📊 Executive Summary & GTD Overview**: High-level KPIs, 47-year temporal trends, regional incident breakdowns, and target taxonomies.
-2. **🗺️ 3D Geospatial Threat Hotspots**: Interactive 3D scatter map with region/country/year filters and top spatial cluster tables.
-3. **🎯 Live ML Prediction Studio**: Configure tactical parameters and run live real-time inference across all 4 ML engines.
-4. **📈 Forecasting & Diagnostics**: Regional monthly incident volume forecasts and feature importance rankings.
+1. **Executive Summary & GTD Overview**: High-level KPIs, 47-year temporal trends, regional incident breakdowns, and target taxonomies.
+2. **3D Geospatial Threat Hotspots**: Interactive 3D scatter map with region/country/year filters and top spatial cluster tables.
+3. **Live ML Prediction Studio**: Configure tactical parameters and run live real-time inference across all 4 ML engines.
+4. **Forecasting & Diagnostics**: Regional monthly incident volume forecasts and feature importance rankings.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * **Core Logic**: Python 3.13, Pandas, NumPy
 * **Machine Learning**: LightGBM, Scikit-Learn, XGBoost, CatBoost, Joblib
