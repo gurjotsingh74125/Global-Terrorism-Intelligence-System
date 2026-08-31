@@ -1,0 +1,199 @@
+{
+  "timestamp": "2026-08-30 13:48:15",
+  "execution_time_seconds": 48.01,
+  "perpetrator_attribution": {
+    "accuracy": 0.9270564631699627,
+    "macro_f1": 0.665057866106425,
+    "weighted_f1": 0.9269415709086744,
+    "top3_accuracy": 0.9995700773860705,
+    "top_unknown_attributed_groups": {
+      "Other_Known": 28330,
+      "Taliban": 2891,
+      "New People's Army (NPA)": 603,
+      "Al-Shabaab": 508,
+      "Maoists": 368
+    },
+    "feature_importances": {
+      "iyear": 10569,
+      "iday_clean": 10261,
+      "latitude_clean": 9735,
+      "longitude_clean": 8909,
+      "imonth_clean": 7529,
+      "targtype1": 4965,
+      "attacktype1": 2345,
+      "targtype1_txt_code": 2243,
+      "weaptype1": 1722,
+      "property": 1443,
+      "country": 1430,
+      "claimed_clean": 1071,
+      "attacktype1_txt_code": 998,
+      "weaptype1_txt_code": 997,
+      "country_txt_code": 592,
+      "region": 514,
+      "vicinity": 471,
+      "extended": 464,
+      "ishostkid": 425,
+      "region_txt_code": 233,
+      "suicide": 221,
+      "quarter": 169
+    }
+  },
+  "attack_success_prediction": {
+    "accuracy": 0.8298314105657177,
+    "roc_auc": 0.9058640840162012,
+    "pr_auc": 0.9810108100361279,
+    "precision": 0.9491185741526248,
+    "recall": 0.8438981350126293,
+    "f1_score": 0.8934210044323968,
+    "feature_importances": {
+      "iyear": 611,
+      "longitude_clean": 505,
+      "latitude_clean": 498,
+      "targtype1": 437,
+      "attacktype1": 328,
+      "property": 258,
+      "iday_clean": 213,
+      "country": 210,
+      "country_txt_code": 187,
+      "targtype1_txt_code": 166,
+      "imonth_clean": 143,
+      "weaptype1": 119,
+      "weaptype1_txt_code": 115,
+      "attacktype1_txt_code": 100,
+      "nperps_missing": 96,
+      "region": 96,
+      "region_txt_code": 88,
+      "ishostkid": 82,
+      "is_known_group": 68,
+      "claimed_clean": 55,
+      "extended": 51,
+      "claimed_missing": 34,
+      "vicinity": 21,
+      "suicide": 19,
+      "quarter": 0
+    }
+  },
+  "casualty_risk_estimation": {
+    "casualty_tier_accuracy": 0.5660832565688467,
+    "casualty_tier_macro_f1": 0.37334234777389386,
+    "casualty_tier_weighted_f1": 0.5418599980265532,
+    "pinball_loss_q50": 2.211399572037684,
+    "pinball_loss_q90": 2.2032182053083686,
+    "mae_q50": 4.422799144075368,
+    "feature_importances": {
+      "iyear": 3055,
+      "latitude_clean": 3052,
+      "longitude_clean": 2855,
+      "targtype1": 1929,
+      "iday_clean": 1650,
+      "imonth_clean": 1291,
+      "country": 1227,
+      "attacktype1": 1017,
+      "property": 798,
+      "targtype1_txt_code": 742,
+      "weaptype1": 697,
+      "country_txt_code": 679,
+      "weaptype1_txt_code": 446,
+      "is_known_group": 442,
+      "region": 423,
+      "region_txt_code": 412,
+      "suicide": 339,
+      "claimed_clean": 335,
+      "nperps_missing": 326,
+      "attacktype1_txt_code": 302,
+      "ishostkid": 163,
+      "extended": 142,
+      "vicinity": 116,
+      "claimed_missing": 45,
+      "quarter": 17
+    }
+  },
+  "spatiotemporal_forecasting": {
+    "spatial_cluster_count": 118,
+    "top_10_spatial_hotspots": [
+      {
+        "cluster_id": 2,
+        "incident_count": 19991,
+        "latitude_centroid": 34.337105033778386,
+        "longitude_centroid": 43.88762781441864,
+        "primary_region": "Middle East & North Africa",
+        "primary_country": "Iraq"
+      },
+      {
+        "cluster_id": 0,
+        "incident_count": 17205,
+        "latitude_centroid": 33.14801170487288,
+        "longitude_centroid": 69.26375547784191,
+        "primary_region": "South Asia",
+        "primary_country": "Afghanistan"
+      },
+      {
+        "cluster_id": 24,
+        "incident_count": 5005,
+        "latitude_centroid": 33.10673275171197,
+        "longitude_centroid": 35.52400234880679,
+        "primary_region": "Middle East & North Africa",
+        "primary_country": "Syria"
+      },
+      {
+        "cluster_id": 7,
+        "incident_count": 4680,
+        "latitude_centroid": 24.879353576798803,
+        "longitude_centroid": 89.18799386317863,
+        "primary_region": "South Asia",
+        "primary_country": "India"
+      },
+      {
+        "cluster_id": 3,
+        "incident_count": 2721,
+        "latitude_centroid": 2.549489160871039,
+        "longitude_centroid": 44.75368239990616,
+        "primary_region": "Sub-Saharan Africa",
+        "primary_country": "Somalia"
+      },
+      {
+        "cluster_id": 26,
+        "incident_count": 2640,
+        "latitude_centroid": 14.155179165148734,
+        "longitude_centroid": 44.845549705527525,
+        "primary_region": "Middle East & North Africa",
+        "primary_country": "Yemen"
+      },
+      {
+        "cluster_id": 16,
+        "incident_count": 2477,
+        "latitude_centroid": 7.373653273718207,
+        "longitude_centroid": 124.47862535365361,
+        "primary_region": "Southeast Asia",
+        "primary_country": "Philippines"
+      },
+      {
+        "cluster_id": 66,
+        "incident_count": 2205,
+        "latitude_centroid": 11.585658450035915,
+        "longitude_centroid": 13.123989191988844,
+        "primary_region": "Sub-Saharan Africa",
+        "primary_country": "Nigeria"
+      },
+      {
+        "cluster_id": 13,
+        "incident_count": 2153,
+        "latitude_centroid": 6.493206609382257,
+        "longitude_centroid": 101.4499580715281,
+        "primary_region": "Southeast Asia",
+        "primary_country": "Thailand"
+      },
+      {
+        "cluster_id": 8,
+        "incident_count": 1821,
+        "latitude_centroid": 35.4248804667765,
+        "longitude_centroid": 64.2737303981329,
+        "primary_region": "South Asia",
+        "primary_country": "Afghanistan"
+      }
+    ],
+    "forecast_mae": 33.81525434057019,
+    "forecast_rmse": 75.20391163417614,
+    "forecast_r2": 0.7890508306786669
+  }
+}
