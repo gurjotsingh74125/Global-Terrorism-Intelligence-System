@@ -53,8 +53,18 @@ pip install pandas numpy scikit-learn lightgbm xgboost catboost matplotlib seabo
 ```
 
 ---
+### 2. Download Dataset (`data/` Folder)
 
-### 2. Run the Machine Learning Pipeline
+Due to file size constraints on GitHub, download the preprocessed `data/` folder from Google Drive:
+
+📥 **[Download GTIS Data Folder (Google Drive)]((https://drive.google.com/drive/folders/1NGp33mCRjEL5wpEgxH63ZnWZnlDP3f1m?usp=sharing))**
+
+After downloading, place the extracted `data/` folder directly inside the project root directory.
+
+---
+
+
+### 3. Run the Machine Learning Pipeline
 
 To execute data preprocessing, train all 4 machine learning models, evaluate out-of-sample metrics, and export `.joblib` binaries and `outputs/metrics.json`:
 
@@ -64,7 +74,7 @@ python run_all.py
 
 ---
 
-### 3. Launch the Interactive Web Dashboard
+### 4. Launch the Interactive Web Dashboard
 
 To start the interactive Streamlit intelligence suite:
 
